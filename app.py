@@ -17,16 +17,16 @@ DEFAULT_SITES = [
     {"nama":"Gempol MB","end_sewa":"2026-05-11","ext_sewa":"","tenant":"3 tenant","tgl_email":"2025-05-14","bai":True,"wo":True,"progres":"Rehunting - pengajuan next by Handika, cancel s/d found","status":"Rehunting"},
     {"nama":"Jl. Leuwisari","end_sewa":"2026-04-24","ext_sewa":"2026-07-24","tenant":"Tsel","tgl_email":"2026-04-07","bai":False,"wo":False,"progres":"BAI waiting kandidat","status":"Validasi"},
     {"nama":"Parakan Muncang","end_sewa":"2026-07-13","ext_sewa":"","tenant":"Tsel","tgl_email":"2025-12-01","bai":True,"wo":True,"progres":"Validasi done, BAI proses","status":"Validasi"},
-    {"nama":"Sukahurip MD","end_sewa":"2026-02-25","ext_sewa":"","tenant":"Tsel, IOH","tgl_email":"2025-06-17","bai":False,"wo":True,"progres":"Sitat done, SRF1","status":"Sitat"},
+    {"nama":"Sukahurip MD","end_sewa":"2026-02-25","ext_sewa":"","tenant":"Tsel, IOH","tgl_email":"2025-06-17","bai":False,"wo":True,"progres":"Sitac done, SRF1","status":"Sitac"},
     {"nama":"Alun-alun Banjaran","end_sewa":"2026-09-03","ext_sewa":"","tenant":"IOH","tgl_email":"2026-03-13","bai":False,"wo":False,"progres":"LLwill, proses nego ext 1th, BAI waiting kandidat","status":"Rehunting"},
     {"nama":"Juvante Hotel","end_sewa":"2026-12-31","ext_sewa":"2027-03-30","tenant":"Tsel","tgl_email":"2026-04-14","bai":False,"wo":False,"progres":"Hold dual, BAI waiting kandidat","status":"Hunting"},
     {"nama":"Cipitung - Bojongsoang","end_sewa":"2026-06-21","ext_sewa":"2027-06-21","tenant":"XL","tgl_email":"2026-03-10","bai":False,"wo":False,"progres":"BAI waiting kandidat","status":"Hunting"},
     {"nama":"Puncak Raya Cianjur","end_sewa":"2027-08-07","ext_sewa":"","tenant":"IOH, XL","tgl_email":"2026-02-23","bai":False,"wo":False,"progres":"BAI waiting kandidat","status":"Hunting"},
     {"nama":"Sindang Rasa","end_sewa":"2027-03-02","ext_sewa":"","tenant":"Tsel, IOH","tgl_email":"2026-04-07","bai":False,"wo":False,"progres":"Lahan akan jd RS Jantung, bs pindah ke lahan milik LL 120 meter","status":"Hunting"},
-    {"nama":"Luragung","end_sewa":"2024-03-10","ext_sewa":"2026-07-10","tenant":"IOH","tgl_email":"2025-01-01","bai":True,"wo":True,"progres":"LL sdh tidak mau ext tambahan, comcase warga, tenant minta 4 shelter dipertahankan, JE tower dibongkar","status":"Sitat"},
+    {"nama":"Luragung","end_sewa":"2024-03-10","ext_sewa":"2026-07-10","tenant":"IOH","tgl_email":"2025-01-01","bai":True,"wo":True,"progres":"LL sdh tidak mau ext tambahan, comcase warga, tenant minta 4 shelter dipertahankan, JE tower dibongkar","status":"Sitac"},
 ]
 
-STATUS_LIST = ["Hunting","Rehunting","Validasi","Combat","Sitat","RFI","CME","Selesai"]
+STATUS_LIST = ["Hunting","Rehunting","Validasi","Combat","Sitac","RFI","CME","Selesai"]
 TENANT_LIST = ["Tsel","IOH","XL","3 tenant","Tsel, IOH","Tsel, IOH, XL","IOH, XL","Lainnya"]
 
 def load_data():
